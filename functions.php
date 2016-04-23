@@ -3,6 +3,7 @@
 function eccentrica_script_enqueue() {
 
 	wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/eccentrica.css', array(), '1.0.0', 'all');
+	wp_enqueue_script('customjs', get_template_directory_uri() . '/js/eccentrica.js', array(), '1.0.0', true);
 
 }
 
